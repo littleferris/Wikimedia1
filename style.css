@@ -19,34 +19,27 @@ p {
   padding: 10px;
   display: block;
   text-align: justify;
-  width: 70%;
+  width: 80%;
 }
 
 .right  {
   text-align: right;
 }
 .main-box {
-  margin: 0 10px;
+  margin: 10px 10px;
   height: 80%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
-  max-width: 500px;
-
-}
-
-.wrapper {
-  margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 
 .main-box-item {
   height: 150px;
   width: 150px;
   line-height: 60px;
-  margin: 0;
+  margin: 4.9%;
   padding: 0;
-  /*display: inline-block;*/
 }
 
 .main-box-item a {
