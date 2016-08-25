@@ -9,6 +9,8 @@ html {
 body {
   background-color: white;
   font: 13px/1.5 sans-serif;
+  width: 90%;
+  margin: 0 auto;
 }
 p {
   display: block;
@@ -19,7 +21,8 @@ p {
   padding: 10px;
   display: block;
   text-align: justify;
-  width: 80%;
+  width: 90%;
+  font-size: 150%;
 }
 
 .right  {
@@ -29,16 +32,14 @@ p {
   margin: 10px 10px;
   height: 80%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
-  width: 100%;
 }
 
 .main-box-item {
-  height: 150px;
-  width: 150px;
+  height: 175px;
   line-height: 60px;
-  margin: 4.9%;
+  margin: 4%;
   padding: 0;
 }
 
@@ -57,9 +58,16 @@ img {
 
 .footer {
   text-align: center;
-  width: 100%;
-  margin: 10px auto;
+  width: 80%;
+  margin: 0 auto;
   border-top: 1px solid #aaa;
 
 }
-div .footer {}
+
+.footer-links {
+  text-align: center;
+  display: inline;
+  margin: 0 10px;
+
+
+}
